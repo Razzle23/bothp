@@ -13,4 +13,8 @@
     "request": "^2.88.0",
     "tmi.js": "^1.2.1"
   }
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/razzle23/bothp.git"
+}
 }
