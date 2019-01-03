@@ -30,7 +30,7 @@ client.on('chat', function(channel, userstate, message, self){
 client.on('connected', function(address, port){
         client.action(userChannel, `Hi, I'm SUSI. Mention me using @${process.env.USERNAME} to chat with me.`);
 });
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 6667;
 app.listen(port, () => {
    console.log(`Listening on ${port}`);
 });
